@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.cardContainer{
+  margin-bottom: 5%; 
+}
+.cardContainer span{
+  margin:1%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profileCard{
+  width:64%;
+  margin-left: 18%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.userImg{
+  border-radius: 50%;
+  width: 50%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.userDetails{
+  text-align: left;
+  width:60%
+}
+.lowerContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.navDiv{
+  display:flex;
+  align-items: center;
+  padding: 0.5% 0.5%;
+  background-color: #24292f;
+  justify-content: space-between;
+  color:white;
+}
+.imglogo{
+  width:35px;
+}
+.innerNav{
+  display: flex;
+  align-items: center;
+  width:50%;
+}
+.innerNav span{
+  margin-left: 2%;
+  font-weight: 750;
+}
+.inputSearch{
+  margin-left: 2%;
+  padding:1%;
+  width:65%;
+  background-color: transparent;
+  border:transparent;
+  border:0.1px solid white;
+  color:white;
+  border-radius: 3px;
+}
+.lowerDiv {
+  color:white
+}
+.lowerDiv span{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lowerDiv span i{
+  margin-right: 5%;
+}
+.loginimg{
+  width: 25px;
+  border-radius: 50%;
+}
+.mainscreenDiv{
+  width: 90%;
+  display:flex ;
+  justify-content: space-between;
+  margin:3% auto;
+}
+.left{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:30%;
 }
-
-.App-link {
-  color: #61dafb;
+.profileImage{
+  border-radius: 50%;
+  width: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.followbtn{
+  width:48%;
+  margin-top: 4%;
+  padding:1%;
+  border:transparent;
+  border:0.1px solid #D5D7DA;
+  border-radius: 3px;
+  background-color: #F6F8FA;
+}
+.followers{
+  margin-left: 5%;
+}
+.right{
+  width:70%;
 }
